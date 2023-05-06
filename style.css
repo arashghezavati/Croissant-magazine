@@ -1,0 +1,431 @@
+html{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+body{
+    margin: 0;  
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+ text-align: center;
+    margin: 10px 10px;
+    position: relative;       
+}
+main{
+    display: block;
+     margin: auto;
+   
+}
+h1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+div.box{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+header nav{
+    position: relative;
+    top: 0;
+    right: 1.2rem;
+    font-size: 20px;
+}
+#search{
+    width: 80px;
+}
+.icon{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-size: smaller;
+    color: #000000;
+}
+nav{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+header li:hover{
+    color: grey;
+    transition: 0.9s;
+        transform: rotatey(360deg);
+  }
+input[type=submit]:hover{
+    background-color: #808080;
+}
+a:hover{
+    color: #808080;
+}
+input[type=submit]:active{
+    color: blue;
+}
+a:active{
+    color: blue;
+}
+#titr{
+    background-color: rgb(159, 159, 156);
+    text-align: center;
+    padding: 30px;
+    max-height: 80%;
+  }
+#titr img{
+    width:80%;
+    height: auto;
+}
+#titr h2{
+    font-size: 1rem;
+}
+h3{
+    text-align: center;
+}
+#content1{
+    text-align: center;
+}
+#Articles img:hover{
+    cursor: pointer;
+    animation: shake 0.5s;   
+    animation-iteration-count: infinite;
+}
+#content1, .content{
+ padding-left: 30px;
+ padding-right: 30px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+
+   
+}
+hr.small_line{
+    border-width: 0;
+    border-top: 1px solid #404040;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 0
+}
+hr.long-line{
+    border-width: 0;
+    border-top: 1px solid #404040;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 0
+}
+footer{
+    padding: 20px;
+    background-color: #545454;      
+}
+#foot{
+    max-width: 1000px;
+    margin: auto;
+}
+footer ul{
+    padding-top: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 0rem;
+}
+footer a{
+    font-size: 14px;
+}
+footer p{
+    color: #ffffff;
+}
+footer a{
+    color: #EAFAF4;
+}
+#social{
+    text-align: center; 
+
+    }
+    #social i:hover{
+        transition: 0.9s;
+        transform: rotatey(360deg);
+    }
+      #social a{
+        padding: .5rem;
+    }
+#sources{
+    background-color: #d8d8d0;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+  table{
+   margin-left: 2rem;
+   margin-right: 2rem;
+    font-size: .60rem;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;     
+  }
+  td,th{
+    border: 1px solid black;
+    width: 50%;
+    line-height: .5rem; 
+     }
+  th{
+    height: 4rem;
+    color: #601F3B;
+font-weight: bold;
+  }
+   #sources h3{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+  #contact{
+    text-align: center;
+  }
+  input[type=text],[type=email]{
+    width:300px;
+    height: 20px;
+    background-color:rgb(216, 216, 208) ;
+  }
+  #message{
+    height: 70px;
+  }
+  input[type=submit]{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+#titr p{
+    font-weight: 700;
+}
+#titr2{
+    text-align: center;
+    background-color:#d8d8d0 ;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    padding-top: 1rem;
+  }
+tr:nth-child(1){
+    font-size: 1rem;
+}
+  tr :nth-child(2){
+    width: 30px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+      }
+  tr :nth-child(3){
+    width:20px;
+    font-size: 1rem;
+  }
+  #Articles img:hover {
+    cursor: pointer;
+    animation: shake 0.5s;   
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @media screen and (min-width:900px){
+body{
+    margin: auto;
+}
+#titr img{
+       height: 40%;
+}
+header ul{
+    display:inline-flex;
+    font-weight: 800;
+    padding-top: 6px;
+   }
+header li{
+    padding: .5rem;
+}
+#search{
+    width: 150px;
+}
+h1{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+div.box{
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+}
+#divide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+  }
+footer li{
+    padding: 4px;
+}
+img{
+    max-width: 100%;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.right .space{
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+  }
+.left .space{
+    text-align: center;
+   }
+.right img{
+    grid-column: 2;
+}
+tr:nth-child(1){
+    font-size: 1.4rem;
+}
+table :nth-child(2){
+    font-size: 1.4rem;
+    }
+table :nth-child(3){
+     font-size: 1.4rem;
+    }
+#titr2,#contact {
+ background-color: transparent;
+}
+#titr p{
+font-size: 2rem;
+}
+#subTitr{
+    padding-top: 1rem;
+    font-size: large;
+}
+#seperate{
+    background-image: url(./images/contact/pexels-negative-space-33999.jpg);
+    /* Photo by Negative Space: https://www.pexels.com/photo/marketing-office-working-business-33999/ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    margin: auto;  
+    }
+#contact img,#titr2 img{
+    display: none;
+}
+input[type=text],[type=email]{
+  
+    background-color:rgb(249, 249, 247) ;
+  }
+ table{
+    width: 800px;
+    margin: auto;
+  }
+  #content1 p{
+    width: 650px;
+    margin: auto;
+}
+header ul{ 
+    font-size: 1rem;
+    padding-top: 2px;
+}
+#subTitr{
+    width: 250px;
+    height: 250px;
+    line-height: 25px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: #0d0d0d;
+    text-align: center;
+    background: #e2dcdc;
+    margin-left: 30rem;
+    margin: auto;
+    padding-top: 2rem;
+    }
+ }
+@media screen and (min-width:1200px){
+    #Articles{
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+#titr img{
+   
+    height: 700px;
+}
+
+header ul{ 
+    font-size: 1rem;
+    padding-top: .2rem;
+
+}
+.content{
+    display: block;
+}
+
+.right img{
+    grid-column: 1;
+}
+.right .space{
+    
+   padding-top: 0;
+}
+.left .space{
+   
+    padding-top: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+table{
+    width: 1000px;
+    margin: auto;
+  }
+tr:nth-child(1){
+    font-size: 1.9rem;
+}
+table :nth-child(2){
+   font-size: 1.7rem;
+  }
+  table :nth-child(3){
+    font-size: 1.7rem;
+   }
+ 
+  #search{
+    width: 250px;
+    height: 1.7rem;
+}
+.icon{
+    position: absolute;
+    right: 3px;
+    top: 5px;
+       }     
+}
+
+
+  
